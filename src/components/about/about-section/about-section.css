@@ -1,0 +1,19 @@
+#about1 {
+    margin: 0;
+}
+/* Default style */
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* For wider screens */
+@media (min-width: 992px) {
+
+    /* Adjust breakpoint as necessary */
+    .img-responsive {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}

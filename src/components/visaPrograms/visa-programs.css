@@ -1,0 +1,12 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start; /* Aligns items to the start of the flex container */
+}
+.card-img {
+    width: 100%; /* Ensures the image takes the full width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    aspect-ratio: 4 / 3; /* Sets the aspect ratio to 4:3 */
+    object-fit: cover; /* Covers the area without distorting the image */
+}

@@ -1,0 +1,117 @@
+/* General styling for the contact section */
+#contact {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background, adjust as necessary */
+}
+
+/* Card styling for contact information */
+.info-card {
+    margin-bottom: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-icon {
+    font-size: 24px;
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* Button styling */
+.button {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darken the button on hover */
+}
+
+/* Newsletter container styling */
+.footer-newsletter {
+    padding: 20px;
+    background-color: #ffffff; /* White background for emphasis */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px;
+    text-align: center; /* Center the text and form */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-newsletter {
+        margin-top: 20px;
+    }
+}
+
+/* Adding spacing between form elements for better readability */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Text-center for headers */
+
+/* Loading, error, and success message styling */
+.loading, .error-message, .sent-message {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loading {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.error-message {
+    color: #dc3545; /* Bootstrap danger color */
+}
+
+.sent-message {
+    color: #28a745; /* Bootstrap success color */
+}
+.icon-style {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+
+  
+  .form-control, .btn {
+    border-radius: 0.25rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-title {
+    margin-left: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+/* Text and bullet point alignment */
+
+/* Image styling */
+
+/* Consistent button styles */

@@ -1,0 +1,20 @@
+.nav-link {
+    transition: color 0.3s ease-in-out;margin: 10px 15px;
+    color: black;
+}
+
+.nav-link:hover {
+    color: #007bff;
+    /* Bootstrap primary color */
+}
+
+#header {
+    margin: 0;
+    width: 100%;
+}
+.active-nav-link {
+    color: #e21717; /* White text for active links */
+    background-color: transparent; /* Bootstrap primary blue for the background */
+    border-radius: 5px; /* Optional: adds rounded corners */
+  }
+  
